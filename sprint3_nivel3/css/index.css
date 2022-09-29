@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.main {
+    background-image: url(../images/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.bottom-img {
+    width: 100%;
+    margin-top: 17%;
+}
+
+.grocery,
+.beauty,
+.clothes {
+    font-family: 'Lobster', cursive;
+}
+
+.groceryprod,
+.beautyprod,
+.clothesprod {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+
+.card:hover {
+    -webkit-box-shadow: inset 2px 6px 25px 5px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 2px 6px 25px 5px rgba(0,0,0,0.2);
+    box-shadow: inset 2px 6px 25px 5px rgba(0,0,0,0.2);
+}
+.imgmarket {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.social-title {
+    font-family: 'Lobster', cursive;
+}
+
+.social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+footer {
+    background-image: linear-gradient(to right, #312f31, #000000);
+    color: #fff;
+}
+.footer-img{
+    width: 100%;
+    margin-top: -1%;
+}
+
+.modal-body {
+    background-image: linear-gradient(to right, #df383d, #df8484);
+}
